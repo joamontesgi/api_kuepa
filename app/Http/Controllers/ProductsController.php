@@ -16,7 +16,7 @@ class ProductsController extends Controller
     {
         // return all data in product model
         $products = Product::all();
-        return view('prueba', compact('products'));
+        return view('administrationProducts', compact('products'));
 
 
     }

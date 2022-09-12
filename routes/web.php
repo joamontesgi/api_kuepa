@@ -14,5 +14,5 @@ use App\Http\Controllers\ProductsController;
 */
 
 // create route resource
-Route::resource('pepito', ProductsController::class);
+Route::resource('productos', ProductsController::class);
 
